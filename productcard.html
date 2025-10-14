@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headphonezz</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+      }
+      .product-card {
+        text-align: center;
+        border-radius: 15px;
+        padding: 2rem;
+        background-color: rgb(255, 255, 255);
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      .product-card:hover {
+        background-color: beige;
+        transition: ease-in-out 0.5s;
+      }
+      body {
+        background: linear-gradient(90deg, #300343, #c53fff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+      }
+      .buy-button {
+        background-color: #3e3ed6;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        height: 40px;
+        width: 140px;
+      }
+      .buy-button:hover {
+        background-color: #19198e;
+        transition: ease-in-out 0.5s;
+      }
+      .cart-button {
+        background-color: #3e3ed6;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        height: 40px;
+        width: 140px;
+      }
+      .cart-button:hover {
+        background-color: #19198e;
+        transition: ease-in-out 0.5s;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="product-card">
+      <div class="product-image">
+        <img
+          src="../assignment1/71n0hFVzhjL._SL1500_.jpg"
+          height="250px"
+          width="250px"
+          alt="WirelessHeadphone"
+        />
+      </div>
+      <div class="productinfo">
+        <h3>Wireless Headphone</h3>
+        <p>
+          Experience crystal-clear sound with our noise-cancelling wireless
+          headphones. Perfect for music lovers
+        </p>
+      </div>
+      <div class="product-price"><h4>₹1999/-</h4></div>
+      <div class="buttons">
+        <button class="buy-button">Buy Now</button>
+        <button class="cart-button">Add To Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
